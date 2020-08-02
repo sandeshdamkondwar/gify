@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import { GiphyFetch } from "@giphy/js-fetch-api";
 import { GIFDatum } from "../../defs/interfaces";
 
@@ -11,8 +11,12 @@ interface IProps {
 
 function Home({ query }: IProps) {
   const [gifs, setGifs] = useState([]);
-  const fetchGifs = (offset: number) =>
-    gf.search(query, { offset, limit: 100 });
+  const fetchGifs = useCallback(
+    (offset: number) => {
+      return gf.search(query, { offset, limit: 100 });
+    },
+    [query]
+  );
 
   useEffect(() => {
     fetchGifs(10).then((res: any) => {
