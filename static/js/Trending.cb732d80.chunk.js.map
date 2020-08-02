@@ -1,1 +1,0 @@
-{"version":3,"sources":["routes/Trending/Trending.tsx"],"names":["React","memo"],"mappings":"6FAAA,2BAMeA,cAAMC,MAJrB,WACE,OAAO","file":"static/js/Trending.cb732d80.chunk.js","sourcesContent":["import React from \"react\";\n\nfunction Trending() {\n  return <div>Trending</div>;\n}\n\nexport default React.memo(Trending);\n"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["routes/Random/Random.tsx"],"names":["React","memo"],"mappings":"6FAAA,2BAMeA,cAAMC,MAJrB,WACE,OAAO","file":"static/js/Random.b856be01.chunk.js","sourcesContent":["import React from \"react\";\n\nfunction Random() {\n  return <div>Random</div>;\n}\n\nexport default React.memo(Random);\n"],"sourceRoot":""}
