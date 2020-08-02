@@ -19,7 +19,7 @@ function Home({ query }: IProps) {
       const data = res.data;
       setGifs(data);
     });
-  }, []);
+  }, [fetchGifs]);
   return (
     <div className="gif-items">
       {gifs.map((gif: GIFDatum, key) => (
