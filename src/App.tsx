@@ -1,8 +1,18 @@
 import React from "react";
-import "./styles/base.scss";
+import { BrowserRouter } from "react-router-dom";
+
+import Header from "./components/Header";
+import Router from "./routes";
+
+const BASE_URL = process.env.PUBLIC_URL;
 
 function App() {
-  return <div className="">Learn React</div>;
+  return (
+    <BrowserRouter basename={BASE_URL}>
+      <Header />
+      <Router />
+    </BrowserRouter>
+  );
 }
 
 export default App;
