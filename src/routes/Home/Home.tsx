@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { GiphyFetch } from "@giphy/js-fetch-api";
-import { GIFResponse, GIFDatum } from "../../defs/interfaces";
+import { GIFDatum } from "../../defs/interfaces";
 
-const gf = new GiphyFetch("dLTulzVpNZqXjYVV7bCY7SAW2cpASWSk");
+const GIPHY_KEY = "dLTulzVpNZqXjYVV7bCY7SAW2cpASWSk";
+const gf = new GiphyFetch(GIPHY_KEY);
 
 interface IProps {
   query: string;
