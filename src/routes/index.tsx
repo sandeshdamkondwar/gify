@@ -7,20 +7,22 @@ import Random from "../routes/Random";
 
 function Router() {
   return (
-    <Switch>
-      <Route exact path="/">
-        <Home />
-      </Route>
-      <Route path="/trending">
-        <Trending />
-      </Route>
-      <Route path="/random">
-        <Random />
-      </Route>
-      <Route>
-        <Redirect to="/" />
-      </Route>
-    </Switch>
+    <div className="gif-container">
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/trending">
+          <Trending />
+        </Route>
+        <Route path="/random">
+          <Random />
+        </Route>
+        <Route>
+          <Redirect to="/" />
+        </Route>
+      </Switch>
+    </div>
   );
 }
 

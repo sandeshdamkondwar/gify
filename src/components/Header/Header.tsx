@@ -1,25 +1,13 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import Nav from "../Nav";
+import SearchBar from "../SearchBar";
 
 function Header() {
   return (
-    <ul className="nav">
-      <li>
-        <NavLink activeClassName="active" to="/">
-          Home
-        </NavLink>
-      </li>
-      <li>
-        <NavLink activeClassName="active" to="/trending">
-          Trending
-        </NavLink>
-      </li>
-      <li>
-        <NavLink activeClassName="active" to="/random">
-          Random
-        </NavLink>
-      </li>
-    </ul>
+    <div className="header">
+      <SearchBar />
+      <Nav />
+    </div>
   );
 }
 
