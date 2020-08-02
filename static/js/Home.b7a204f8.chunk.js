@@ -1,2 +1,0 @@
-(this.webpackJsonpgify=this.webpackJsonpgify||[]).push([[0],{31:function(e,n,t){"use strict";t.r(n);var i=t(0),a=t.n(i);n.default=a.a.memo((function(){return a.a.createElement("div",null,"Home")}))}}]);
-//# sourceMappingURL=Home.b7a204f8.chunk.js.map

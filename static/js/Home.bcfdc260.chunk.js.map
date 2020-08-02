@@ -1,0 +1,1 @@
+{"version":3,"sources":["routes/Home/Home.tsx"],"names":["React","memo"],"mappings":"6FAAA,2BAMeA,cAAMC,MAJrB,WACE,OAAO","file":"static/js/Home.bcfdc260.chunk.js","sourcesContent":["import React from \"react\";\n\nfunction Home() {\n  return <div>Home</div>;\n}\n\nexport default React.memo(Home);\n"],"sourceRoot":""}
