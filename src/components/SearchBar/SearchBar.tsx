@@ -1,8 +1,10 @@
 import React from "react";
 
-function Search() {
-  const val = "asd";
+interface IProps {
+  query: string;
+}
 
+function Search({ query }: IProps) {
   const onClick = () => {};
 
   return (
@@ -12,7 +14,7 @@ function Search() {
           type="search"
           id="gif-search"
           aria-label="Search GIFs"
-          value={val}
+          value={query}
           placeholder="Search GIFs"
         ></input>
         <button className="action" onClick={onClick}>

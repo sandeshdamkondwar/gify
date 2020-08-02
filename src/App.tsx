@@ -7,10 +7,11 @@ import Router from "./routes";
 const BASE_URL = process.env.PUBLIC_URL;
 
 function App() {
+  const term = "cry";
   return (
     <BrowserRouter basename={BASE_URL}>
-      <Header />
-      <Router />
+      <Header query={term} />
+      <Router query={term} />
     </BrowserRouter>
   );
 }

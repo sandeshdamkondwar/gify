@@ -2,10 +2,15 @@ import React from "react";
 import Nav from "../Nav";
 import SearchBar from "../SearchBar";
 
-function Header() {
+interface IProps {
+  query: string;
+}
+
+function Header(props: IProps) {
+  const query = props.query;
   return (
     <div className="header">
-      <SearchBar />
+      <SearchBar query={query} />
       <Nav />
     </div>
   );

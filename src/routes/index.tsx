@@ -5,12 +5,16 @@ import Home from "../routes/Home";
 import Trending from "../routes/Trending";
 import Random from "../routes/Random";
 
-function Router() {
+interface IProps {
+  query: string;
+}
+
+function Router(props: IProps) {
   return (
     <div className="gif-container">
       <Switch>
         <Route exact path="/">
-          <Home />
+          <Home query={props.query} />
         </Route>
         <Route path="/trending">
           <Trending />
