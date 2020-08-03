@@ -1,0 +1,2 @@
+(this.webpackJsonpgify=this.webpackJsonpgify||[]).push([[2],{64:function(n,e,t){"use strict";t.r(e);var i=t(0),a=t.n(i);e.default=a.a.memo((function(){return a.a.createElement("div",null,"Trending")}))}}]);
+//# sourceMappingURL=Trending.2db7cc22.chunk.js.map
