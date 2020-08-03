@@ -1,11 +1,12 @@
 import React from "react";
+import cx from "classnames";
 import { NavLink } from "react-router-dom";
 
-function Nav() {
+function Nav(props: { className?: string }) {
   return (
-    <div className="nav">
+    <div className={cx("nav", props.className)}>
       <NavLink
-        className="nav-item button"
+        className="nav-item ripple"
         exact
         activeClassName="active"
         to="/"
@@ -14,7 +15,7 @@ function Nav() {
       </NavLink>
 
       <NavLink
-        className="nav-item button"
+        className="nav-item ripple"
         exact
         activeClassName="active"
         to="/trending"
@@ -23,7 +24,7 @@ function Nav() {
       </NavLink>
 
       <NavLink
-        className="nav-item button"
+        className="nav-item ripple"
         exact
         activeClassName="active"
         to="/random"

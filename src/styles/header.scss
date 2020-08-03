@@ -1,11 +1,13 @@
 .header {
+  background-color: #f6f6f6;
   .search-bar {
-    padding: 1em;
+    padding: 2em 1em 1em;
 
     input[type="search"] {
       display: block;
       width: 100%;
       margin-bottom: 0;
+      border: 0;
     }
 
     .input-container {
@@ -16,23 +18,40 @@
       position: absolute;
       right: 0;
       top: 0;
-      border-width: 0 1px;
       border-radius: 0 4px 4px 0;
+      bottom: 0;
+      width: 60px;
     }
   }
   .nav {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    padding: 0 1em 1em;
+    margin-bottom: 5px;
 
     &-item {
+      color: #555;
+      text-align: center;
+      flex: 1 1;
       margin: 0;
-      padding: 0 1em;
+      text-decoration: none;
+      padding: 0.5em;
+      text-transform: uppercase;
     }
 
     .active {
-      color: red;
+      color: #333;
+      font-weight: bold;
+      border-bottom: 1px solid #4bb1e5;
+      background-color: $app-light-background;
     }
+  }
+
+  &.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background: $app-light-background;
+    width: 100%;
   }
 }

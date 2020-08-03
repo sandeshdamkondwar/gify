@@ -5,15 +5,11 @@ import Home from "../routes/Home";
 import Trending from "../routes/Trending";
 import Random from "../routes/Random";
 
-interface IProps {
-  query: string;
-}
-
-function Router(props: IProps) {
+function Router() {
   return (
     <Switch>
       <Route exact path="/">
-        <Home query={props.query} />
+        <Home />
       </Route>
       <Route path="/trending">
         <Trending />

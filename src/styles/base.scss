@@ -1,8 +1,18 @@
+@import "./_variables.scss";
 @import "./fonts.css";
 @import "./normalize.css";
 @import "./skeleton.css";
 @import "./header.scss";
 @import "./gif.scss";
+@import "./btn.scss";
+
+body {
+  background-color: $app-background;
+}
+
+.page-heading {
+  margin: 10px;
+}
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
