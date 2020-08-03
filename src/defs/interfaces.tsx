@@ -10,6 +10,13 @@ export interface GIFResponse {
   pagination: Pagination;
 }
 
+export interface IGifItem {
+  gif: IStill;
+  still: IStill;
+  height: number;
+  title: string;
+}
+
 export interface GIFDatum {
   analytics: Analytics;
   analytics_response_payload: string;
@@ -45,32 +52,32 @@ export interface Onclick {
 }
 
 export interface Images {
-  "480w_still": The480_WStill;
-  downsized: The480_WStill;
-  downsized_large: The480_WStill;
-  downsized_medium: The480_WStill;
+  "480w_still": IStill;
+  downsized: IStill;
+  downsized_large: IStill;
+  downsized_medium: IStill;
   downsized_small: DownsizedSmall;
-  downsized_still: The480_WStill;
+  downsized_still: IStill;
   fixed_height: { [key: string]: string };
   fixed_height_downsampled: { [key: string]: string };
   fixed_height_small: { [key: string]: string };
-  fixed_height_small_still: The480_WStill;
-  fixed_height_still: The480_WStill;
+  fixed_height_small_still: IStill;
+  fixed_height_still: IStill;
   fixed_width: { [key: string]: string };
   fixed_width_downsampled: { [key: string]: string };
   fixed_width_small: { [key: string]: string };
-  fixed_width_small_still: The480_WStill;
-  fixed_width_still: The480_WStill;
+  fixed_width_small_still: IStill;
+  fixed_width_still: IStill;
   looping: { [key: string]: string };
   original: { [key: string]: string };
   original_mp4: DownsizedSmall;
-  original_still: The480_WStill;
+  original_still: IStill;
   preview: DownsizedSmall;
-  preview_gif: The480_WStill;
-  preview_webp: The480_WStill;
+  preview_gif: IStill;
+  preview_webp: IStill;
 }
 
-export interface The480_WStill {
+export interface IStill {
   height: string;
   url: string;
   width: string;

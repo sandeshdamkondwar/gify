@@ -1,11 +1,15 @@
 .header {
   .search-bar {
-    position: relative;
-    margin: 1em;
+    padding: 1em;
 
     input[type="search"] {
       display: block;
       width: 100%;
+      margin-bottom: 0;
+    }
+
+    .input-container {
+      position: relative;
     }
 
     .action {
@@ -20,7 +24,7 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
-    margin: 1em;
+    padding: 0 1em 1em;
 
     &-item {
       margin: 0;

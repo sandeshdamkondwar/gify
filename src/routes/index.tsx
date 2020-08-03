@@ -11,22 +11,20 @@ interface IProps {
 
 function Router(props: IProps) {
   return (
-    <div className="gif-container">
-      <Switch>
-        <Route exact path="/">
-          <Home query={props.query} />
-        </Route>
-        <Route path="/trending">
-          <Trending />
-        </Route>
-        <Route path="/random">
-          <Random />
-        </Route>
-        <Route>
-          <Redirect to="/" />
-        </Route>
-      </Switch>
-    </div>
+    <Switch>
+      <Route exact path="/">
+        <Home query={props.query} />
+      </Route>
+      <Route path="/trending">
+        <Trending />
+      </Route>
+      <Route path="/random">
+        <Random />
+      </Route>
+      <Route>
+        <Redirect to="/" />
+      </Route>
+    </Switch>
   );
 }
 
