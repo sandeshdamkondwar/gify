@@ -2,30 +2,30 @@
   "files": {
     "static/js/0.1e0d49e6.chunk.js": "/gify/static/js/0.1e0d49e6.chunk.js",
     "static/js/0.1e0d49e6.chunk.js.map": "/gify/static/js/0.1e0d49e6.chunk.js.map",
-    "main.css": "/gify/static/css/main.e0540cf6.chunk.css",
-    "main.js": "/gify/static/js/main.6e97820e.chunk.js",
-    "main.js.map": "/gify/static/js/main.6e97820e.chunk.js.map",
-    "runtime-main.js": "/gify/static/js/runtime-main.e4466244.js",
-    "runtime-main.js.map": "/gify/static/js/runtime-main.e4466244.js.map",
-    "static/js/3.7fecebf6.chunk.js": "/gify/static/js/3.7fecebf6.chunk.js",
-    "static/js/3.7fecebf6.chunk.js.map": "/gify/static/js/3.7fecebf6.chunk.js.map",
-    "static/js/4.080efeb6.chunk.js": "/gify/static/js/4.080efeb6.chunk.js",
-    "static/js/4.080efeb6.chunk.js.map": "/gify/static/js/4.080efeb6.chunk.js.map",
+    "main.css": "/gify/static/css/main.542f3a51.chunk.css",
+    "main.js": "/gify/static/js/main.85ce8787.chunk.js",
+    "main.js.map": "/gify/static/js/main.85ce8787.chunk.js.map",
+    "runtime-main.js": "/gify/static/js/runtime-main.6bf6407b.js",
+    "runtime-main.js.map": "/gify/static/js/runtime-main.6bf6407b.js.map",
+    "static/js/3.58ac755f.chunk.js": "/gify/static/js/3.58ac755f.chunk.js",
+    "static/js/3.58ac755f.chunk.js.map": "/gify/static/js/3.58ac755f.chunk.js.map",
+    "static/js/4.649beb20.chunk.js": "/gify/static/js/4.649beb20.chunk.js",
+    "static/js/4.649beb20.chunk.js.map": "/gify/static/js/4.649beb20.chunk.js.map",
     "static/js/5.95c1ec6d.chunk.js": "/gify/static/js/5.95c1ec6d.chunk.js",
     "static/js/5.95c1ec6d.chunk.js.map": "/gify/static/js/5.95c1ec6d.chunk.js.map",
     "static/js/6.c29061df.chunk.js": "/gify/static/js/6.c29061df.chunk.js",
     "static/js/6.c29061df.chunk.js.map": "/gify/static/js/6.c29061df.chunk.js.map",
     "index.html": "/gify/index.html",
-    "precache-manifest.28e85acd0812cc23af9b140eeb79813a.js": "/gify/precache-manifest.28e85acd0812cc23af9b140eeb79813a.js",
+    "precache-manifest.8108a4edcd62ff950636b17d6c9fbb1e.js": "/gify/precache-manifest.8108a4edcd62ff950636b17d6c9fbb1e.js",
     "service-worker.js": "/gify/service-worker.js",
-    "static/css/main.e0540cf6.chunk.css.map": "/gify/static/css/main.e0540cf6.chunk.css.map",
+    "static/css/main.542f3a51.chunk.css.map": "/gify/static/css/main.542f3a51.chunk.css.map",
     "static/js/0.1e0d49e6.chunk.js.LICENSE.txt": "/gify/static/js/0.1e0d49e6.chunk.js.LICENSE.txt",
-    "static/js/3.7fecebf6.chunk.js.LICENSE.txt": "/gify/static/js/3.7fecebf6.chunk.js.LICENSE.txt"
+    "static/js/3.58ac755f.chunk.js.LICENSE.txt": "/gify/static/js/3.58ac755f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e4466244.js",
-    "static/js/3.7fecebf6.chunk.js",
-    "static/css/main.e0540cf6.chunk.css",
-    "static/js/main.6e97820e.chunk.js"
+    "static/js/runtime-main.6bf6407b.js",
+    "static/js/3.58ac755f.chunk.js",
+    "static/css/main.542f3a51.chunk.css",
+    "static/js/main.85ce8787.chunk.js"
   ]
 }
