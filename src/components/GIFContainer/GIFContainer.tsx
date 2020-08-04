@@ -4,7 +4,6 @@ import React, { useEffect, useState, useRef } from "react";
 import { debounce, generateCols, getNoOfCols } from "../../helpers/";
 
 // Hooks
-import useWindowSize from "../../hooks/useWindowSize";
 import { useInifiniteScroller } from "../../hooks/useInfiniteScroller";
 
 // Defs
@@ -28,7 +27,7 @@ function GIFContainer({
 }) {
   const [cols, setCols] = useState<any[]>([]);
   const [offset, setOffset] = useState<number>(0);
-  const windowSize = useWindowSize();
+
   const [colHeights, setColHeights] = useState<number[]>([]);
   const { fetch, setFetching } = useInifiniteScroller({
     scollThreshold: CONFIG.SCROLL_LISTENER_THRESHOLD,
@@ -38,7 +37,7 @@ function GIFContainer({
   const delayedLoading = useRef(
     debounce(
       () => {
-        const offsetLimit = getImagesLimit(windowSize.width);
+        const offsetLimit = getImagesLimit(window.innerWidth);
         // Updating offset will take care of fetching data with new offset
         setOffset((offset) => {
           return offset + offsetLimit + 1;
@@ -50,35 +49,36 @@ function GIFContainer({
   ).current;
 
   useEffect(() => {
-    if (windowSize.width > 0) {
-      const offsetLimit = getImagesLimit(windowSize.width);
-      fetchGifs(offset, offsetLimit).then((res: any) => {
-        let { items, heights } = generateCols({
-          data: res.data instanceof Array ? res.data : [res.data],
-          screenWidth: windowSize.width,
-          cols: getNoOfCols(windowSize.width),
-        });
+    const windowWidth = window.innerWidth;
 
-        // Merge heights
-        const mergedHeights =
-          colHeights.length === 0
-            ? colHeights.map((colHeight, idx) => colHeight + heights[idx])
-            : heights;
-
-        setColHeights(mergedHeights);
-
-        // Merge with old result
-        items = items || [];
-        const mergedCols = cols.length
-          ? cols.map((col, idx) => [...cols[idx], ...items[idx]])
-          : items;
-
-        setCols(mergedCols);
-        setFetching(false);
+    const offsetLimit = getImagesLimit(windowWidth);
+    fetchGifs(offset, offsetLimit).then((res: any) => {
+      let { items, heights } = generateCols({
+        data: res.data instanceof Array ? res.data : [res.data],
+        screenWidth: windowWidth,
+        cols: getNoOfCols(windowWidth),
       });
-    }
+
+      // Merge heights
+      const mergedHeights =
+        colHeights.length === 0
+          ? colHeights.map((colHeight, idx) => colHeight + heights[idx])
+          : heights;
+
+      setColHeights(mergedHeights);
+
+      // Merge with old result
+      items = items || [];
+      const mergedCols = cols.length
+        ? cols.map((col, idx) => [...cols[idx], ...items[idx]])
+        : items;
+
+      setCols(mergedCols);
+      setFetching(false);
+    });
+
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [fetchGifs, offset, windowSize]);
+  }, [fetchGifs, offset]);
 
   if (fetch && cols.length > 0) {
     delayedLoading();
