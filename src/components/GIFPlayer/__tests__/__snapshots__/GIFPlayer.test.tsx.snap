@@ -5,7 +5,7 @@ exports[`matches the snapshot 1`] = `
   <div>
     <div
       class="gif_player"
-      style="height: 266px;"
+      style="height: 256px;"
     >
       <div
         class="play_button"
@@ -17,7 +17,6 @@ exports[`matches the snapshot 1`] = `
       <img
         alt="test image"
         data-testid="gif-image"
-        heigh="266"
         src="https://media0.giphy.com/media/13dPffliPA4qbTTb1m/200w.gif?cid=9a7f325649d1c3adcb43a797139887d707ab1f9bc10642d2&rid=200w.gif"
       />
     </div>
