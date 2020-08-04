@@ -1,0 +1,1035 @@
+{
+  "data": [
+    {
+      "analytics": {
+        "onclick": {
+          "url": "https://giphy-analytics.giphy.com/simple_analytics?response_id=43af57f8660d30b09a955b8862c76dc25e0768c2&event_type=GIF_TRENDING&gif_id=h4HhY7F3Qf5oCvZWvl&action_type=CLICK"
+        },
+        "onload": {
+          "url": "https://giphy-analytics.giphy.com/simple_analytics?response_id=43af57f8660d30b09a955b8862c76dc25e0768c2&event_type=GIF_TRENDING&gif_id=h4HhY7F3Qf5oCvZWvl&action_type=SEEN"
+        },
+        "onsent": {
+          "url": "https://giphy-analytics.giphy.com/simple_analytics?response_id=43af57f8660d30b09a955b8862c76dc25e0768c2&event_type=GIF_TRENDING&gif_id=h4HhY7F3Qf5oCvZWvl&action_type=SENT"
+        }
+      },
+      "analytics_response_payload": "e=Z2lmX2lkPWg0SGhZN0YzUWY1b0N2Wld2bCZldmVudF90eXBlPUdJRl9UUkVORElORyZjaWQ9OWE3ZjMyNTY0M2FmNTdmODY2MGQzMGIwOWE5NTViODg2MmM3NmRjMjVlMDc2OGMy",
+      "bitly_gif_url": "https://gph.is/g/ZxoedGz",
+      "bitly_url": "https://gph.is/g/ZxoedGz",
+      "content_url": "",
+      "embed_url": "https://giphy.com/embed/h4HhY7F3Qf5oCvZWvl",
+      "id": "h4HhY7F3Qf5oCvZWvl",
+      "images": {
+        "480w_still": {
+          "height": "583",
+          "url": "https://media0.giphy.com/media/h4HhY7F3Qf5oCvZWvl/480w_s.jpg?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=480w_s.jpg",
+          "width": "480"
+        },
+        "downsized": {
+          "height": "480",
+          "size": "1792645",
+          "url": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/giphy-downsized.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-downsized.gif",
+          "width": "395"
+        },
+        "downsized_large": {
+          "height": "480",
+          "size": "3207312",
+          "url": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/giphy.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.gif",
+          "width": "395"
+        },
+        "downsized_medium": {
+          "height": "480",
+          "size": "2064783",
+          "url": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/giphy-downsized-medium.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-downsized-medium.gif",
+          "width": "395"
+        },
+        "downsized_small": {
+          "height": "232",
+          "mp4": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/giphy-downsized-small.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-downsized-small.mp4",
+          "mp4_size": "85931",
+          "width": "190"
+        },
+        "downsized_still": {
+          "height": "480",
+          "size": "47691",
+          "url": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/giphy-downsized_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-downsized_s.gif",
+          "width": "395"
+        },
+        "fixed_height": {
+          "height": "200",
+          "mp4": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/200.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200.mp4",
+          "mp4_size": "129683",
+          "size": "573202",
+          "url": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/200.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200.gif",
+          "webp": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/200.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200.webp",
+          "webp_size": "220978",
+          "width": "165"
+        },
+        "fixed_height_downsampled": {
+          "height": "200",
+          "size": "75980",
+          "url": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/200_d.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200_d.gif",
+          "webp": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/200_d.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200_d.webp",
+          "webp_size": "46518",
+          "width": "165"
+        },
+        "fixed_height_small": {
+          "height": "100",
+          "mp4": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/100.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100.mp4",
+          "mp4_size": "52520",
+          "size": "177733",
+          "url": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/100.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100.gif",
+          "webp": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/100.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100.webp",
+          "webp_size": "96150",
+          "width": "83"
+        },
+        "fixed_height_small_still": {
+          "height": "100",
+          "size": "5079",
+          "url": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/100_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100_s.gif",
+          "width": "83"
+        },
+        "fixed_height_still": {
+          "height": "200",
+          "size": "13767",
+          "url": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/200_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200_s.gif",
+          "width": "165"
+        },
+        "fixed_width": {
+          "height": "243",
+          "mp4": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/200w.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w.mp4",
+          "mp4_size": "166817",
+          "size": "698758",
+          "url": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/200w.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w.gif",
+          "webp": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/200w.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w.webp",
+          "webp_size": "279230",
+          "width": "200"
+        },
+        "fixed_width_downsampled": {
+          "height": "243",
+          "size": "101939",
+          "url": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/200w_d.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w_d.gif",
+          "webp": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/200w_d.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w_d.webp",
+          "webp_size": "62646",
+          "width": "200"
+        },
+        "fixed_width_small": {
+          "height": "122",
+          "mp4": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/100w.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100w.mp4",
+          "mp4_size": "48181",
+          "size": "238973",
+          "url": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/100w.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100w.gif",
+          "webp": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/100w.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100w.webp",
+          "webp_size": "118866",
+          "width": "100"
+        },
+        "fixed_width_small_still": {
+          "height": "122",
+          "size": "6720",
+          "url": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/100w_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100w_s.gif",
+          "width": "100"
+        },
+        "fixed_width_still": {
+          "height": "243",
+          "size": "18293",
+          "url": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/200w_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w_s.gif",
+          "width": "200"
+        },
+        "looping": {
+          "mp4": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/giphy-loop.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-loop.mp4",
+          "mp4_size": "2698337"
+        },
+        "original": {
+          "frames": "48",
+          "hash": "1dd9257c6a3eb819bf38448629cba4ef",
+          "height": "480",
+          "mp4": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/giphy.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.mp4",
+          "mp4_size": "1099155",
+          "size": "3207312",
+          "url": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/giphy.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.gif",
+          "webp": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/giphy.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.webp",
+          "webp_size": "899924",
+          "width": "395"
+        },
+        "original_mp4": {
+          "height": "582",
+          "mp4": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/giphy.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.mp4",
+          "mp4_size": "1099155",
+          "width": "480"
+        },
+        "original_still": {
+          "height": "480",
+          "size": "106322",
+          "url": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/giphy_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy_s.gif",
+          "width": "395"
+        },
+        "preview": {
+          "height": "256",
+          "mp4": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/giphy-preview.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-preview.mp4",
+          "mp4_size": "39349",
+          "width": "210"
+        },
+        "preview_gif": {
+          "height": "86",
+          "size": "49463",
+          "url": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/giphy-preview.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-preview.gif",
+          "width": "71"
+        },
+        "preview_webp": {
+          "height": "164",
+          "size": "38002",
+          "url": "https://media1.giphy.com/media/h4HhY7F3Qf5oCvZWvl/giphy-preview.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-preview.webp",
+          "width": "134"
+        }
+      },
+      "import_datetime": "2020-04-22 07:58:19",
+      "is_sticker": 0,
+      "rating": "g",
+      "slug": "TikTokFrance-tiktok-bonjour-chien-h4HhY7F3Qf5oCvZWvl",
+      "source": "",
+      "source_post_url": "",
+      "source_tld": "",
+      "title": "Dog Pet GIF by TikTok France",
+      "trending_datetime": "2020-08-04 07:00:09",
+      "type": "gif",
+      "url": "https://giphy.com/gifs/TikTokFrance-tiktok-bonjour-chien-h4HhY7F3Qf5oCvZWvl",
+      "user": {
+        "avatar_url": "https://media0.giphy.com/avatars/TikTokFrance/F79ZXnlVFOt3.png",
+        "banner_image": "",
+        "banner_url": "",
+        "display_name": "TikTok France",
+        "is_verified": true,
+        "profile_url": "https://giphy.com/TikTokFrance/",
+        "username": "TikTokFrance"
+      },
+      "username": "TikTokFrance"
+    },
+    {
+      "analytics": {
+        "onclick": {
+          "url": "https://giphy-analytics.giphy.com/simple_analytics?response_id=43af57f8660d30b09a955b8862c76dc25e0768c2&event_type=GIF_TRENDING&gif_id=eivyYNE6Tae5EuRjAM&action_type=CLICK"
+        },
+        "onload": {
+          "url": "https://giphy-analytics.giphy.com/simple_analytics?response_id=43af57f8660d30b09a955b8862c76dc25e0768c2&event_type=GIF_TRENDING&gif_id=eivyYNE6Tae5EuRjAM&action_type=SEEN"
+        },
+        "onsent": {
+          "url": "https://giphy-analytics.giphy.com/simple_analytics?response_id=43af57f8660d30b09a955b8862c76dc25e0768c2&event_type=GIF_TRENDING&gif_id=eivyYNE6Tae5EuRjAM&action_type=SENT"
+        }
+      },
+      "analytics_response_payload": "e=Z2lmX2lkPWVpdnlZTkU2VGFlNUV1UmpBTSZldmVudF90eXBlPUdJRl9UUkVORElORyZjaWQ9OWE3ZjMyNTY0M2FmNTdmODY2MGQzMGIwOWE5NTViODg2MmM3NmRjMjVlMDc2OGMy",
+      "bitly_gif_url": "https://gph.is/g/4bjzRn9",
+      "bitly_url": "https://gph.is/g/4bjzRn9",
+      "content_url": "",
+      "embed_url": "https://giphy.com/embed/eivyYNE6Tae5EuRjAM",
+      "id": "eivyYNE6Tae5EuRjAM",
+      "images": {
+        "480w_still": {
+          "height": "480",
+          "url": "https://media1.giphy.com/media/eivyYNE6Tae5EuRjAM/480w_s.jpg?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=480w_s.jpg",
+          "width": "480"
+        },
+        "downsized": {
+          "height": "480",
+          "size": "1803765",
+          "url": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/giphy.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.gif",
+          "width": "480"
+        },
+        "downsized_large": {
+          "height": "480",
+          "size": "1803765",
+          "url": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/giphy.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.gif",
+          "width": "480"
+        },
+        "downsized_medium": {
+          "height": "480",
+          "size": "1803765",
+          "url": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/giphy.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.gif",
+          "width": "480"
+        },
+        "downsized_small": {
+          "height": "250",
+          "mp4": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/giphy-downsized-small.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-downsized-small.mp4",
+          "mp4_size": "97415",
+          "width": "250"
+        },
+        "downsized_still": {
+          "height": "480",
+          "size": "1803765",
+          "url": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/giphy_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy_s.gif",
+          "width": "480"
+        },
+        "fixed_height": {
+          "height": "200",
+          "mp4": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/200.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200.mp4",
+          "mp4_size": "132567",
+          "size": "510952",
+          "url": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/200.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200.gif",
+          "webp": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/200.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200.webp",
+          "webp_size": "373142",
+          "width": "200"
+        },
+        "fixed_height_downsampled": {
+          "height": "200",
+          "size": "52008",
+          "url": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/200_d.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200_d.gif",
+          "webp": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/200_d.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200_d.webp",
+          "webp_size": "43798",
+          "width": "200"
+        },
+        "fixed_height_small": {
+          "height": "100",
+          "mp4": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/100.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100.mp4",
+          "mp4_size": "27870",
+          "size": "210247",
+          "url": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/100.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100.gif",
+          "webp": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/100.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100.webp",
+          "webp_size": "143888",
+          "width": "100"
+        },
+        "fixed_height_small_still": {
+          "height": "100",
+          "size": "3175",
+          "url": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/100_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100_s.gif",
+          "width": "100"
+        },
+        "fixed_height_still": {
+          "height": "200",
+          "size": "6040",
+          "url": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/200_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200_s.gif",
+          "width": "200"
+        },
+        "fixed_width": {
+          "height": "200",
+          "mp4": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/200w.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w.mp4",
+          "mp4_size": "132567",
+          "size": "510952",
+          "url": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/200w.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w.gif",
+          "webp": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/200w.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w.webp",
+          "webp_size": "373142",
+          "width": "200"
+        },
+        "fixed_width_downsampled": {
+          "height": "200",
+          "size": "52008",
+          "url": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/200w_d.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w_d.gif",
+          "webp": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/200w_d.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w_d.webp",
+          "webp_size": "43798",
+          "width": "200"
+        },
+        "fixed_width_small": {
+          "height": "100",
+          "mp4": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/100w.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100w.mp4",
+          "mp4_size": "27870",
+          "size": "210247",
+          "url": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/100w.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100w.gif",
+          "webp": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/100w.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100w.webp",
+          "webp_size": "143888",
+          "width": "100"
+        },
+        "fixed_width_small_still": {
+          "height": "100",
+          "size": "3175",
+          "url": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/100w_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100w_s.gif",
+          "width": "100"
+        },
+        "fixed_width_still": {
+          "height": "200",
+          "size": "6040",
+          "url": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/200w_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w_s.gif",
+          "width": "200"
+        },
+        "hd": {
+          "height": "800",
+          "mp4": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/giphy-hd.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-hd.mp4",
+          "mp4_size": "3091994",
+          "width": "800"
+        },
+        "looping": {
+          "mp4": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/giphy-loop.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-loop.mp4",
+          "mp4_size": "1465151"
+        },
+        "original": {
+          "frames": "55",
+          "hash": "bcecd5e2f4fec4d4d7611395ed266c9f",
+          "height": "480",
+          "mp4": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/giphy.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.mp4",
+          "mp4_size": "687217",
+          "size": "1803765",
+          "url": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/giphy.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.gif",
+          "webp": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/giphy.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.webp",
+          "webp_size": "1141300",
+          "width": "480"
+        },
+        "original_mp4": {
+          "height": "480",
+          "mp4": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/giphy.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.mp4",
+          "mp4_size": "687217",
+          "width": "480"
+        },
+        "original_still": {
+          "height": "480",
+          "size": "66885",
+          "url": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/giphy_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy_s.gif",
+          "width": "480"
+        },
+        "preview": {
+          "height": "384",
+          "mp4": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/giphy-preview.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-preview.mp4",
+          "mp4_size": "25221",
+          "width": "384"
+        },
+        "preview_gif": {
+          "height": "111",
+          "size": "48774",
+          "url": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/giphy-preview.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-preview.gif",
+          "width": "111"
+        },
+        "preview_webp": {
+          "height": "440",
+          "size": "48474",
+          "url": "https://media3.giphy.com/media/eivyYNE6Tae5EuRjAM/giphy-preview.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-preview.webp",
+          "width": "440"
+        }
+      },
+      "import_datetime": "2020-05-08 21:23:16",
+      "is_sticker": 0,
+      "rating": "g",
+      "slug": "IntoAction-eivyYNE6Tae5EuRjAM",
+      "source": "",
+      "source_post_url": "",
+      "source_tld": "",
+      "title": "African American Race GIF by INTO ACTION",
+      "trending_datetime": "2020-08-04 06:45:08",
+      "type": "gif",
+      "url": "https://giphy.com/gifs/IntoAction-eivyYNE6Tae5EuRjAM",
+      "user": {
+        "avatar_url": "https://media2.giphy.com/avatars/IntoAction/fVzJHfHLa54n.png",
+        "banner_image": "https://media2.giphy.com/headers/IntoAction/IGcSe0maLFui.gif",
+        "banner_url": "https://media2.giphy.com/headers/IntoAction/IGcSe0maLFui.gif",
+        "display_name": "INTO ACTION",
+        "is_verified": true,
+        "profile_url": "https://giphy.com/IntoAction/",
+        "username": "IntoAction"
+      },
+      "username": "IntoAction"
+    },
+    {
+      "analytics": {
+        "onclick": {
+          "url": "https://giphy-analytics.giphy.com/simple_analytics?response_id=43af57f8660d30b09a955b8862c76dc25e0768c2&event_type=GIF_TRENDING&gif_id=hWpjRVzwSMy7QvM6Ee&action_type=CLICK"
+        },
+        "onload": {
+          "url": "https://giphy-analytics.giphy.com/simple_analytics?response_id=43af57f8660d30b09a955b8862c76dc25e0768c2&event_type=GIF_TRENDING&gif_id=hWpjRVzwSMy7QvM6Ee&action_type=SEEN"
+        },
+        "onsent": {
+          "url": "https://giphy-analytics.giphy.com/simple_analytics?response_id=43af57f8660d30b09a955b8862c76dc25e0768c2&event_type=GIF_TRENDING&gif_id=hWpjRVzwSMy7QvM6Ee&action_type=SENT"
+        }
+      },
+      "analytics_response_payload": "e=Z2lmX2lkPWhXcGpSVnp3U015N1F2TTZFZSZldmVudF90eXBlPUdJRl9UUkVORElORyZjaWQ9OWE3ZjMyNTY0M2FmNTdmODY2MGQzMGIwOWE5NTViODg2MmM3NmRjMjVlMDc2OGMy",
+      "bitly_gif_url": "https://gph.is/g/Zd1N6M0",
+      "bitly_url": "https://gph.is/g/Zd1N6M0",
+      "content_url": "",
+      "embed_url": "https://giphy.com/embed/hWpjRVzwSMy7QvM6Ee",
+      "id": "hWpjRVzwSMy7QvM6Ee",
+      "images": {
+        "480w_still": {
+          "height": "260",
+          "url": "https://media2.giphy.com/media/hWpjRVzwSMy7QvM6Ee/480w_s.jpg?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=480w_s.jpg",
+          "width": "480"
+        },
+        "downsized": {
+          "height": "260",
+          "size": "879718",
+          "url": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/giphy.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.gif",
+          "width": "480"
+        },
+        "downsized_large": {
+          "height": "260",
+          "size": "879718",
+          "url": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/giphy.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.gif",
+          "width": "480"
+        },
+        "downsized_medium": {
+          "height": "260",
+          "size": "879718",
+          "url": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/giphy.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.gif",
+          "width": "480"
+        },
+        "downsized_small": {
+          "height": "208",
+          "mp4": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/giphy-downsized-small.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-downsized-small.mp4",
+          "mp4_size": "49031",
+          "width": "384"
+        },
+        "downsized_still": {
+          "height": "260",
+          "size": "879718",
+          "url": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/giphy_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy_s.gif",
+          "width": "480"
+        },
+        "fixed_height": {
+          "height": "200",
+          "mp4": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/200.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200.mp4",
+          "mp4_size": "110841",
+          "size": "582784",
+          "url": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/200.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200.gif",
+          "webp": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/200.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200.webp",
+          "webp_size": "282642",
+          "width": "369"
+        },
+        "fixed_height_downsampled": {
+          "height": "200",
+          "size": "178503",
+          "url": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/200_d.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200_d.gif",
+          "webp": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/200_d.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200_d.webp",
+          "webp_size": "118786",
+          "width": "369"
+        },
+        "fixed_height_small": {
+          "height": "100",
+          "mp4": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/100.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100.mp4",
+          "mp4_size": "24955",
+          "size": "205239",
+          "url": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/100.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100.gif",
+          "webp": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/100.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100.webp",
+          "webp_size": "81934",
+          "width": "185"
+        },
+        "fixed_height_small_still": {
+          "height": "100",
+          "size": "9720",
+          "url": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/100_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100_s.gif",
+          "width": "185"
+        },
+        "fixed_height_still": {
+          "height": "200",
+          "size": "26846",
+          "url": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/200_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200_s.gif",
+          "width": "369"
+        },
+        "fixed_width": {
+          "height": "108",
+          "mp4": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/200w.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w.mp4",
+          "mp4_size": "26863",
+          "size": "193910",
+          "url": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/200w.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w.gif",
+          "webp": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/200w.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w.webp",
+          "webp_size": "92490",
+          "width": "200"
+        },
+        "fixed_width_downsampled": {
+          "height": "108",
+          "size": "64197",
+          "url": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/200w_d.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w_d.gif",
+          "webp": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/200w_d.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w_d.webp",
+          "webp_size": "39704",
+          "width": "200"
+        },
+        "fixed_width_small": {
+          "height": "54",
+          "mp4": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/100w.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100w.mp4",
+          "mp4_size": "8998",
+          "size": "62731",
+          "url": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/100w.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100w.gif",
+          "webp": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/100w.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100w.webp",
+          "webp_size": "33758",
+          "width": "100"
+        },
+        "fixed_width_small_still": {
+          "height": "54",
+          "size": "3766",
+          "url": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/100w_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100w_s.gif",
+          "width": "100"
+        },
+        "fixed_width_still": {
+          "height": "108",
+          "size": "11525",
+          "url": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/200w_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w_s.gif",
+          "width": "200"
+        },
+        "looping": {
+          "mp4": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/giphy-loop.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-loop.mp4",
+          "mp4_size": "3224394"
+        },
+        "original": {
+          "frames": "26",
+          "hash": "ae1cc6b7b061f3722aca32162522515c",
+          "height": "260",
+          "mp4": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/giphy.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.mp4",
+          "mp4_size": "311612",
+          "size": "879718",
+          "url": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/giphy.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.gif",
+          "webp": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/giphy.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.webp",
+          "webp_size": "524224",
+          "width": "480"
+        },
+        "original_mp4": {
+          "height": "260",
+          "mp4": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/giphy.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.mp4",
+          "mp4_size": "311612",
+          "width": "480"
+        },
+        "original_still": {
+          "height": "260",
+          "size": "74193",
+          "url": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/giphy_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy_s.gif",
+          "width": "480"
+        },
+        "preview": {
+          "height": "104",
+          "mp4": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/giphy-preview.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-preview.mp4",
+          "mp4_size": "13522",
+          "width": "192"
+        },
+        "preview_gif": {
+          "height": "64",
+          "size": "47702",
+          "url": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/giphy-preview.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-preview.gif",
+          "width": "118"
+        },
+        "preview_webp": {
+          "height": "84",
+          "size": "27434",
+          "url": "https://media0.giphy.com/media/hWpjRVzwSMy7QvM6Ee/giphy-preview.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-preview.webp",
+          "width": "156"
+        }
+      },
+      "import_datetime": "2020-06-24 21:58:14",
+      "is_sticker": 0,
+      "rating": "g",
+      "slug": "tinder-dating-hWpjRVzwSMy7QvM6Ee",
+      "source": "",
+      "source_post_url": "",
+      "source_tld": "",
+      "title": "Napoleon Dynamite Hello GIF by TINDER",
+      "trending_datetime": "2020-08-04 06:30:07",
+      "type": "gif",
+      "url": "https://giphy.com/gifs/tinder-dating-hWpjRVzwSMy7QvM6Ee",
+      "user": {
+        "avatar_url": "https://media2.giphy.com/avatars/tinder/08KmrQ1ObGha.gif",
+        "banner_image": "https://media2.giphy.com/headers/tinder/AIS7951jYjV7.gif",
+        "banner_url": "https://media2.giphy.com/headers/tinder/AIS7951jYjV7.gif",
+        "display_name": "TINDER",
+        "is_verified": true,
+        "profile_url": "https://giphy.com/tinder/",
+        "username": "tinder"
+      },
+      "username": "tinder"
+    },
+    {
+      "analytics": {
+        "onclick": {
+          "url": "https://giphy-analytics.giphy.com/simple_analytics?response_id=43af57f8660d30b09a955b8862c76dc25e0768c2&event_type=GIF_TRENDING&gif_id=KfCJ1aMr2Oau2mYMxP&action_type=CLICK"
+        },
+        "onload": {
+          "url": "https://giphy-analytics.giphy.com/simple_analytics?response_id=43af57f8660d30b09a955b8862c76dc25e0768c2&event_type=GIF_TRENDING&gif_id=KfCJ1aMr2Oau2mYMxP&action_type=SEEN"
+        },
+        "onsent": {
+          "url": "https://giphy-analytics.giphy.com/simple_analytics?response_id=43af57f8660d30b09a955b8862c76dc25e0768c2&event_type=GIF_TRENDING&gif_id=KfCJ1aMr2Oau2mYMxP&action_type=SENT"
+        }
+      },
+      "analytics_response_payload": "e=Z2lmX2lkPUtmQ0oxYU1yMk9hdTJtWU14UCZldmVudF90eXBlPUdJRl9UUkVORElORyZjaWQ9OWE3ZjMyNTY0M2FmNTdmODY2MGQzMGIwOWE5NTViODg2MmM3NmRjMjVlMDc2OGMy",
+      "bitly_gif_url": "https://gph.is/g/ZORbAyy",
+      "bitly_url": "https://gph.is/g/ZORbAyy",
+      "content_url": "",
+      "embed_url": "https://giphy.com/embed/KfCJ1aMr2Oau2mYMxP",
+      "id": "KfCJ1aMr2Oau2mYMxP",
+      "images": {
+        "480w_still": {
+          "height": "480",
+          "url": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/480w_s.jpg?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=480w_s.jpg",
+          "width": "480"
+        },
+        "downsized": {
+          "height": "480",
+          "size": "1370131",
+          "url": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/giphy-downsized.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-downsized.gif",
+          "width": "480"
+        },
+        "downsized_large": {
+          "height": "480",
+          "size": "2477889",
+          "url": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/giphy.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.gif",
+          "width": "480"
+        },
+        "downsized_medium": {
+          "height": "480",
+          "size": "2477889",
+          "url": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/giphy.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.gif",
+          "width": "480"
+        },
+        "downsized_small": {
+          "height": "270",
+          "mp4": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/giphy-downsized-small.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-downsized-small.mp4",
+          "mp4_size": "72381",
+          "width": "270"
+        },
+        "downsized_still": {
+          "height": "480",
+          "size": "59715",
+          "url": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/giphy-downsized_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-downsized_s.gif",
+          "width": "480"
+        },
+        "fixed_height": {
+          "height": "200",
+          "mp4": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/200.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200.mp4",
+          "mp4_size": "85089",
+          "size": "374568",
+          "url": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/200.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200.gif",
+          "webp": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/200.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200.webp",
+          "webp_size": "171402",
+          "width": "200"
+        },
+        "fixed_height_downsampled": {
+          "height": "200",
+          "size": "103752",
+          "url": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/200_d.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200_d.gif",
+          "webp": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/200_d.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200_d.webp",
+          "webp_size": "60516",
+          "width": "200"
+        },
+        "fixed_height_small": {
+          "height": "100",
+          "mp4": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/100.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100.mp4",
+          "mp4_size": "31038",
+          "size": "127607",
+          "url": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/100.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100.gif",
+          "webp": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/100.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100.webp",
+          "webp_size": "69558",
+          "width": "100"
+        },
+        "fixed_height_small_still": {
+          "height": "100",
+          "size": "6072",
+          "url": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/100_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100_s.gif",
+          "width": "100"
+        },
+        "fixed_height_still": {
+          "height": "200",
+          "size": "16445",
+          "url": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/200_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200_s.gif",
+          "width": "200"
+        },
+        "fixed_width": {
+          "height": "200",
+          "mp4": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/200w.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w.mp4",
+          "mp4_size": "85089",
+          "size": "374568",
+          "url": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/200w.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w.gif",
+          "webp": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/200w.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w.webp",
+          "webp_size": "171402",
+          "width": "200"
+        },
+        "fixed_width_downsampled": {
+          "height": "200",
+          "size": "103752",
+          "url": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/200w_d.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w_d.gif",
+          "webp": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/200w_d.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w_d.webp",
+          "webp_size": "60516",
+          "width": "200"
+        },
+        "fixed_width_small": {
+          "height": "100",
+          "mp4": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/100w.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100w.mp4",
+          "mp4_size": "31038",
+          "size": "127607",
+          "url": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/100w.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100w.gif",
+          "webp": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/100w.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100w.webp",
+          "webp_size": "69558",
+          "width": "100"
+        },
+        "fixed_width_small_still": {
+          "height": "100",
+          "size": "6072",
+          "url": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/100w_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100w_s.gif",
+          "width": "100"
+        },
+        "fixed_width_still": {
+          "height": "200",
+          "size": "16445",
+          "url": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/200w_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w_s.gif",
+          "width": "200"
+        },
+        "looping": {
+          "mp4": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/giphy-loop.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-loop.mp4",
+          "mp4_size": "3943646"
+        },
+        "original": {
+          "frames": "24",
+          "hash": "8865f371c68ff15a127d8b6c709dd7b7",
+          "height": "480",
+          "mp4": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/giphy.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.mp4",
+          "mp4_size": "459307",
+          "size": "2477889",
+          "url": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/giphy.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.gif",
+          "webp": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/giphy.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.webp",
+          "webp_size": "666464",
+          "width": "480"
+        },
+        "original_mp4": {
+          "height": "480",
+          "mp4": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/giphy.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.mp4",
+          "mp4_size": "459307",
+          "width": "480"
+        },
+        "original_still": {
+          "height": "480",
+          "size": "153255",
+          "url": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/giphy_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy_s.gif",
+          "width": "480"
+        },
+        "preview": {
+          "height": "248",
+          "mp4": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/giphy-preview.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-preview.mp4",
+          "mp4_size": "36980",
+          "width": "248"
+        },
+        "preview_gif": {
+          "height": "73",
+          "size": "49476",
+          "url": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/giphy-preview.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-preview.gif",
+          "width": "73"
+        },
+        "preview_webp": {
+          "height": "148",
+          "size": "47794",
+          "url": "https://media0.giphy.com/media/KfCJ1aMr2Oau2mYMxP/giphy-preview.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-preview.webp",
+          "width": "148"
+        }
+      },
+      "import_datetime": "2020-05-03 23:21:09",
+      "is_sticker": 0,
+      "rating": "g",
+      "slug": "bbcamerica-killing-eve-season-3-still-got-it-KfCJ1aMr2Oau2mYMxP",
+      "source": "https://www.bbcamerica.com/shows/killing-eve",
+      "source_post_url": "https://www.bbcamerica.com/shows/killing-eve",
+      "source_tld": "www.bbcamerica.com",
+      "title": "Killing Eve Cereal GIF by BBC America",
+      "trending_datetime": "2020-08-04 06:15:05",
+      "type": "gif",
+      "url": "https://giphy.com/gifs/bbcamerica-killing-eve-season-3-still-got-it-KfCJ1aMr2Oau2mYMxP",
+      "user": {
+        "avatar_url": "https://media0.giphy.com/avatars/bbcamerica/0iij8RyeWmiR.jpg",
+        "banner_image": "https://media0.giphy.com/headers/bbcamerica/VNtEZpQeMRyC.jpg",
+        "banner_url": "https://media0.giphy.com/headers/bbcamerica/VNtEZpQeMRyC.jpg",
+        "display_name": "BBC America",
+        "is_verified": true,
+        "profile_url": "https://giphy.com/bbcamerica/",
+        "username": "bbcamerica"
+      },
+      "username": "bbcamerica"
+    },
+    {
+      "analytics": {
+        "onclick": {
+          "url": "https://giphy-analytics.giphy.com/simple_analytics?response_id=43af57f8660d30b09a955b8862c76dc25e0768c2&event_type=GIF_TRENDING&gif_id=lMrXwxxfaI9FiCTs62&action_type=CLICK"
+        },
+        "onload": {
+          "url": "https://giphy-analytics.giphy.com/simple_analytics?response_id=43af57f8660d30b09a955b8862c76dc25e0768c2&event_type=GIF_TRENDING&gif_id=lMrXwxxfaI9FiCTs62&action_type=SEEN"
+        },
+        "onsent": {
+          "url": "https://giphy-analytics.giphy.com/simple_analytics?response_id=43af57f8660d30b09a955b8862c76dc25e0768c2&event_type=GIF_TRENDING&gif_id=lMrXwxxfaI9FiCTs62&action_type=SENT"
+        }
+      },
+      "analytics_response_payload": "e=Z2lmX2lkPWxNclh3eHhmYUk5RmlDVHM2MiZldmVudF90eXBlPUdJRl9UUkVORElORyZjaWQ9OWE3ZjMyNTY0M2FmNTdmODY2MGQzMGIwOWE5NTViODg2MmM3NmRjMjVlMDc2OGMy",
+      "bitly_gif_url": "https://gph.is/g/Z7WJbvB",
+      "bitly_url": "https://gph.is/g/Z7WJbvB",
+      "content_url": "",
+      "embed_url": "https://giphy.com/embed/lMrXwxxfaI9FiCTs62",
+      "id": "lMrXwxxfaI9FiCTs62",
+      "images": {
+        "480w_still": {
+          "height": "322",
+          "url": "https://media1.giphy.com/media/lMrXwxxfaI9FiCTs62/480w_s.jpg?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=480w_s.jpg",
+          "width": "480"
+        },
+        "downsized": {
+          "height": "322",
+          "size": "1460069",
+          "url": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/giphy.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.gif",
+          "width": "480"
+        },
+        "downsized_large": {
+          "height": "322",
+          "size": "1460069",
+          "url": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/giphy.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.gif",
+          "width": "480"
+        },
+        "downsized_medium": {
+          "height": "322",
+          "size": "1460069",
+          "url": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/giphy.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.gif",
+          "width": "480"
+        },
+        "downsized_small": {
+          "height": "322",
+          "mp4": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/giphy-downsized-small.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-downsized-small.mp4",
+          "mp4_size": "189531",
+          "width": "480"
+        },
+        "downsized_still": {
+          "height": "322",
+          "size": "1460069",
+          "url": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/giphy_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy_s.gif",
+          "width": "480"
+        },
+        "fixed_height": {
+          "height": "200",
+          "mp4": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/200.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200.mp4",
+          "mp4_size": "103285",
+          "size": "492164",
+          "url": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/200.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200.gif",
+          "webp": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/200.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200.webp",
+          "webp_size": "173196",
+          "width": "298"
+        },
+        "fixed_height_downsampled": {
+          "height": "200",
+          "size": "103061",
+          "url": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/200_d.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200_d.gif",
+          "webp": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/200_d.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200_d.webp",
+          "webp_size": "55518",
+          "width": "298"
+        },
+        "fixed_height_small": {
+          "height": "100",
+          "mp4": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/100.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100.mp4",
+          "mp4_size": "47657",
+          "size": "173546",
+          "url": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/100.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100.gif",
+          "webp": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/100.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100.webp",
+          "webp_size": "86100",
+          "width": "149"
+        },
+        "fixed_height_small_still": {
+          "height": "100",
+          "size": "6725",
+          "url": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/100_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100_s.gif",
+          "width": "149"
+        },
+        "fixed_height_still": {
+          "height": "200",
+          "size": "17708",
+          "url": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/200_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200_s.gif",
+          "width": "298"
+        },
+        "fixed_width": {
+          "height": "134",
+          "mp4": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/200w.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w.mp4",
+          "mp4_size": "65746",
+          "size": "280537",
+          "url": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/200w.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w.gif",
+          "webp": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/200w.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w.webp",
+          "webp_size": "119162",
+          "width": "200"
+        },
+        "fixed_width_downsampled": {
+          "height": "134",
+          "size": "56182",
+          "url": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/200w_d.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w_d.gif",
+          "webp": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/200w_d.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w_d.webp",
+          "webp_size": "32716",
+          "width": "200"
+        },
+        "fixed_width_small": {
+          "height": "67",
+          "mp4": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/100w.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100w.mp4",
+          "mp4_size": "30942",
+          "size": "96602",
+          "url": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/100w.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100w.gif",
+          "webp": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/100w.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100w.webp",
+          "webp_size": "58400",
+          "width": "100"
+        },
+        "fixed_width_small_still": {
+          "height": "67",
+          "size": "4015",
+          "url": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/100w_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=100w_s.gif",
+          "width": "100"
+        },
+        "fixed_width_still": {
+          "height": "134",
+          "size": "11519",
+          "url": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/200w_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=200w_s.gif",
+          "width": "200"
+        },
+        "looping": {
+          "mp4": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/giphy-loop.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-loop.mp4",
+          "mp4_size": "1292055"
+        },
+        "original": {
+          "frames": "31",
+          "hash": "2238aa2f01f4ddfc5b508337980c9b5e",
+          "height": "322",
+          "mp4": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/giphy.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.mp4",
+          "mp4_size": "189531",
+          "size": "1460069",
+          "url": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/giphy.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.gif",
+          "webp": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/giphy.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.webp",
+          "webp_size": "269662",
+          "width": "480"
+        },
+        "original_mp4": {
+          "height": "322",
+          "mp4": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/giphy.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy.mp4",
+          "mp4_size": "189531",
+          "width": "480"
+        },
+        "original_still": {
+          "height": "322",
+          "size": "50665",
+          "url": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/giphy_s.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy_s.gif",
+          "width": "480"
+        },
+        "preview": {
+          "height": "238",
+          "mp4": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/giphy-preview.mp4?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-preview.mp4",
+          "mp4_size": "35529",
+          "width": "354"
+        },
+        "preview_gif": {
+          "height": "62",
+          "size": "47232",
+          "url": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/giphy-preview.gif?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-preview.gif",
+          "width": "92"
+        },
+        "preview_webp": {
+          "height": "156",
+          "size": "44014",
+          "url": "https://media0.giphy.com/media/lMrXwxxfaI9FiCTs62/giphy-preview.webp?cid=9a7f325643af57f8660d30b09a955b8862c76dc25e0768c2&rid=giphy-preview.webp",
+          "width": "232"
+        }
+      },
+      "import_datetime": "2020-04-28 21:28:29",
+      "is_sticker": 0,
+      "rating": "g",
+      "slug": "amywinehouse-amy-winehouse-take-the-box-lMrXwxxfaI9FiCTs62",
+      "source": "https://www.youtube.com/watch?v=egpsoqLxkQE",
+      "source_post_url": "https://www.youtube.com/watch?v=egpsoqLxkQE",
+      "source_tld": "www.youtube.com",
+      "title": "Idc I Dont Care GIF by Amy Winehouse",
+      "trending_datetime": "2020-08-04 06:00:03",
+      "type": "gif",
+      "url": "https://giphy.com/gifs/amywinehouse-amy-winehouse-take-the-box-lMrXwxxfaI9FiCTs62",
+      "user": {
+        "avatar_url": "https://media1.giphy.com/avatars/AmyWinehouse/gCZMAwMbnh11.jpg",
+        "banner_image": "https://media1.giphy.com/headers/amywinehouse/aN0mHORx7xSF.jpeg",
+        "banner_url": "https://media1.giphy.com/headers/amywinehouse/aN0mHORx7xSF.jpeg",
+        "display_name": "Amy Winehouse",
+        "is_verified": true,
+        "profile_url": "https://giphy.com/amywinehouse/",
+        "username": "amywinehouse"
+      },
+      "username": "amywinehouse"
+    }
+  ],
+  "meta": {
+    "msg": "OK",
+    "response_id": "43af57f8660d30b09a955b8862c76dc25e0768c2",
+    "status": 200
+  },
+  "pagination": {
+    "count": 5,
+    "offset": 0,
+    "total_count": 105953
+  }
+}

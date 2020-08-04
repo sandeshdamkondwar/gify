@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 // Helpers
-import { generateCols, getNoOfCols } from "../../helpers/utils";
+import { generateCols, getNoOfCols } from "../../helpers/";
 
 // Hooks
 import useWindowSize from "../../hooks/useWindowSize";

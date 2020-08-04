@@ -4,9 +4,9 @@ interface IGIFPlayerProps {
   gif: string;
   still: string;
   height: number;
-  single?: boolean;
   title: string;
-  className: string;
+  className?: string;
+  single?: boolean;
   autoPlay?: boolean;
 }
 
@@ -31,7 +31,7 @@ const GifPlayer = ({
     refPlaceholder?.current?.remove();
   }, []);
 
-  const classes = classNames("gif_player", className, {
+  const classes = classNames("gif_player", className || "", {
     playing: playing,
     single: single,
   });
@@ -50,10 +50,10 @@ const GifPlayer = ({
 
   return (
     <div className={classes} onClick={toggle} style={{ height: `${height}px` }}>
-      <div className="play_button"></div>
+      <div className="play_button" data-test-id={title}></div>
 
       <div className="placeholder" ref={refPlaceholder}></div>
-      <img {...imageAttr} alt={title} />
+      <img data-testid="gif-image" {...imageAttr} alt={title} />
     </div>
   );
 };

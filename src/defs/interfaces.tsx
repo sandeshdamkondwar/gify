@@ -28,14 +28,14 @@ export interface GIFDatum {
   images: Images;
   import_datetime: string;
   is_sticker: number;
-  rating: Rating;
+  rating: Rating | string;
   slug: string;
   source: string;
   source_post_url: string;
-  source_tld: SourceTLD;
+  source_tld: SourceTLD | string;
   title: string;
   trending_datetime: string;
-  type: Type;
+  type: Type | string;
   url: string;
   user?: User;
   username: string;

@@ -1,3 +1,4 @@
+export { generateCols, getNoOfCols } from "./utils";
 export const debounce = (func, wait = 20, immediate = true) => {
   var timeout;
   return function () {

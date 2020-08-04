@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="gif_player"
+      style="height: 266px;"
+    >
+      <div
+        class="play_button"
+        data-test-id="test image"
+      />
+      <div
+        class="placeholder"
+      />
+      <img
+        alt="test image"
+        data-testid="gif-image"
+        heigh="266"
+        src="https://media0.giphy.com/media/13dPffliPA4qbTTb1m/200w.gif?cid=9a7f325649d1c3adcb43a797139887d707ab1f9bc10642d2&rid=200w.gif"
+      />
+    </div>
+  </div>
+</body>
+`;
