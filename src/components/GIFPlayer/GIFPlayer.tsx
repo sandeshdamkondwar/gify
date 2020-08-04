@@ -44,12 +44,12 @@ const GifPlayer = ({
     onError: removePlaceholder,
   };
 
+  const imageHeight = Math.floor(height - PADDING * 2);
+
   if (single) {
     imageAttr.key = imageAttr.src;
+    imageAttr.height = imageHeight;
   }
-
-  const imageHeight = Math.floor(height - PADDING * 2);
-  imageAttr.height = imageHeight;
 
   return (
     <div
