@@ -12,6 +12,11 @@ body {
 
 .page-heading {
   margin: 10px;
+
+  &-center {
+    text-align: center;
+    margin: 3em auto;
+  }
 }
 
 /* Media Queries

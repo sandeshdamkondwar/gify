@@ -7,7 +7,7 @@ import GIFContainer from "../../components/GIFContainer";
 // Contexts
 import { AppContext } from "../../contexts/App";
 
-const GIPHY_KEY = "dLTulzVpNZqXjYVV7bCY7SAW2cpASWSk";
+const GIPHY_KEY = process.env.REACT_APP_GIPHY_ACCESS_KEY || "";
 const gf = new GiphyFetch(GIPHY_KEY);
 
 function Home() {
@@ -19,12 +19,17 @@ function Home() {
     [state.query]
   );
 
-  return (
-    <div>
-      {state.query && <h3 className="page-heading">Search Result...</h3>}
-      <GIFContainer fetchGifs={fetchGifs} />
-    </div>
-  );
+  const isQuery = !!state.query;
+
+  if (isQuery) {
+    return (
+      <div>
+        <h3 className="page-heading">Search Result...</h3>
+        <GIFContainer fetchGifs={fetchGifs} />
+      </div>
+    );
+  }
+  return <h3 className="page-heading-center">Search Your GIF Above...</h3>;
 }
 
 export default React.memo(Home);
