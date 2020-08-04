@@ -3,13 +3,20 @@ import { useState, useEffect } from "react";
 export const SCROLL_UP = "up";
 export const SCROLL_DOWN = "down";
 
-export const useScrollDirection = ({
+interface IProps {
+  initialDirection?: string;
+  thresholdPixels: number;
+  off: boolean;
+}
+
+export const useScrollListener = ({
   initialDirection,
   thresholdPixels,
   off,
-} = {}) => {
+}: IProps) => {
   const [scrollDir, setScrollDir] = useState(initialDirection);
   const [lastScroll, setLastScroll] = useState(0);
+  const [reqAnimationFrameId, setReqAnimationFrameId] = useState(0);
 
   useEffect(() => {
     const threshold = thresholdPixels || 0;
@@ -33,7 +40,7 @@ export const useScrollDirection = ({
 
     const onScroll = () => {
       if (!ticking) {
-        window.requestAnimationFrame(updateScrollDir);
+        setReqAnimationFrameId(window.requestAnimationFrame(updateScrollDir));
         ticking = true;
       }
     };
@@ -46,8 +53,12 @@ export const useScrollDirection = ({
       ? window.addEventListener("scroll", onScroll)
       : setScrollDir(initialDirection);
 
-    return () => window.removeEventListener("scroll", onScroll);
-  }, [initialDirection, thresholdPixels, off]);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.cancelAnimationFrame(reqAnimationFrameId);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return { scrollDir, lastScroll };
 };

@@ -1,5 +1,7 @@
 import React, { useState, useCallback } from "react";
 import classNames from "classnames";
+
+const PADDING = 5;
 interface IGIFPlayerProps {
   gif: string;
   still: string;
@@ -42,14 +44,18 @@ const GifPlayer = ({
     onError: removePlaceholder,
   };
 
-  imageAttr.heigh = height;
+  // imageAttr.height = height;
 
   if (single) {
     imageAttr.key = imageAttr.src;
   }
 
   return (
-    <div className={classes} onClick={toggle} style={{ height: `${height}px` }}>
+    <div
+      className={classes}
+      onClick={toggle}
+      style={{ height: `${height - PADDING * 2}px` }}
+    >
       <div className="play_button" data-test-id={title}></div>
 
       <div className="placeholder" ref={refPlaceholder}></div>

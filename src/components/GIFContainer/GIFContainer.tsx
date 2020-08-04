@@ -5,6 +5,7 @@ import { generateCols, getNoOfCols } from "../../helpers/";
 
 // Hooks
 import useWindowSize from "../../hooks/useWindowSize";
+import { useInifiniteScroller } from "../../hooks/useInfiniteScroller";
 
 // Defs
 import { IGifItem } from "../../defs/interfaces";
@@ -21,7 +22,11 @@ function GIFContainer({
   const [offset] = useState<number>(0);
   const windowSize = useWindowSize();
   const [height, setHeight] = useState(0);
+  const { lastScroll } = useInifiniteScroller({
+    thresholdPixels: 20,
+  });
 
+  console.log(lastScroll);
   useEffect(() => {
     if (windowSize.width > 0) {
       fetchGifs(offset).then((res: any) => {

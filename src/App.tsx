@@ -10,10 +10,10 @@ import { withRouter } from "react-router";
 
 // Hooks
 import {
-  useScrollDirection,
+  useScrollListener,
   SCROLL_UP,
   SCROLL_DOWN,
-} from "./hooks/useScrollDirection";
+} from "./hooks/useScrollListener";
 
 // Contexts
 import { AppProvider } from "./contexts/App";
@@ -25,7 +25,7 @@ export const LocationDisplay = withRouter(({ location }) => (
 ));
 
 export default function () {
-  const { scrollDir, lastScroll } = useScrollDirection({
+  const { scrollDir, lastScroll } = useScrollListener({
     initialDirection: SCROLL_DOWN,
     thresholdPixels: 50,
     off: false,
