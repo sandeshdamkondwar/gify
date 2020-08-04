@@ -13,8 +13,11 @@ const gf = new GiphyFetch(GIPHY_KEY);
 function Home() {
   const [state] = useContext<any>(AppContext);
   const fetchGifs = useCallback(
-    (pageOffset: number) => {
-      return gf.search(state.query, { offset: pageOffset, limit: 100 });
+    (pageOffset: number, limit: number) => {
+      return gf.search(state.query, {
+        offset: pageOffset,
+        limit: limit,
+      });
     },
     [state.query]
   );

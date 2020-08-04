@@ -1,30 +1,45 @@
 import { useState, useEffect } from "react";
 
 interface IProps {
-  thresholdPixels: number;
+  scollThreshold: number;
+  bottomThreshold: number;
 }
 
-export const useInifiniteScroller = ({ thresholdPixels }: IProps) => {
-  const [lastScroll, setLastScroll] = useState(0);
+export const useInifiniteScroller = ({
+  scollThreshold,
+  bottomThreshold,
+}: IProps) => {
+  const [fetching, setFetching] = useState(false);
   const [reqAnimationFrameId, setReqAnimationFrameId] = useState(0);
 
   useEffect(() => {
-    const threshold = thresholdPixels || 0;
-    let lastScrollY = window.pageYOffset;
+    const threshold = scollThreshold || 0;
+    let { pageYOffset, innerHeight } = window;
     let ticking = false;
 
     const updateScrollPosition = () => {
       const scrollY = window.pageYOffset;
+      const totalHeight = document.body.clientHeight;
 
-      if (Math.abs(scrollY - lastScrollY) < threshold) {
+      if (Math.abs(scrollY - pageYOffset) < threshold) {
         // We haven't exceeded the threshold
         ticking = false;
         return;
       }
 
-      lastScrollY = scrollY > 0 ? scrollY : 0;
+      pageYOffset = scrollY > 0 ? scrollY : 0;
       ticking = false;
-      setLastScroll(lastScrollY);
+
+      if (!fetching) {
+        const clientBottomPosition = scrollY + innerHeight;
+        const reachedDown =
+          totalHeight - clientBottomPosition < bottomThreshold;
+        if (reachedDown) {
+          setFetching(true);
+        } else {
+          setFetching(false);
+        }
+      }
     };
 
     const onScroll = () => {
@@ -45,5 +60,8 @@ export const useInifiniteScroller = ({ thresholdPixels }: IProps) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  return { lastScroll };
+  return {
+    fetch: fetching,
+    setFetching,
+  };
 };

@@ -50,11 +50,13 @@ const GifPlayer = ({
     imageAttr.key = imageAttr.src;
   }
 
+  const imageHeight = Math.floor(height - PADDING * 2);
+
   return (
     <div
       className={classes}
       onClick={toggle}
-      style={{ height: `${height - PADDING * 2}px` }}
+      style={{ height: `${imageHeight}px` }}
     >
       <div className="play_button" data-test-id={title}></div>
 

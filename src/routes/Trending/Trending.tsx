@@ -8,8 +8,8 @@ const GIPHY_KEY = "dLTulzVpNZqXjYVV7bCY7SAW2cpASWSk";
 const gf = new GiphyFetch(GIPHY_KEY);
 
 function Trending() {
-  const fetchGifs = useCallback((pageOffset: number) => {
-    return gf.trending({ offset: pageOffset, limit: 100 });
+  const fetchGifs = useCallback((pageOffset: number, limit: number) => {
+    return gf.trending({ offset: pageOffset, limit: limit });
   }, []);
 
   return (

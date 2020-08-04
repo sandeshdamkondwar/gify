@@ -1,4 +1,5 @@
 import React, { useState, useContext, useCallback, useRef } from "react";
+import { useHistory } from "react-router-dom";
 
 // Contexts
 import { AppContext } from "../../contexts/App";
@@ -6,7 +7,10 @@ import { AppContext } from "../../contexts/App";
 // Helpers
 import { debounce } from "../../helpers";
 
+const HOME_PAGE_URL = process.env.PUBLIC_URL + "/";
+
 function Search() {
+  const history = useHistory();
   const [state, setState] = useContext<any>(AppContext);
   const [term, setTerm] = useState(state.query);
   const DEBOUNCE_TIME = 500;
@@ -17,6 +21,11 @@ function Search() {
         setState({
           query: q,
         });
+
+        // If not on homepage redirect to homepage
+        if (HOME_PAGE_URL !== window.location.pathname) {
+          history.push(HOME_PAGE_URL);
+        }
       },
       DEBOUNCE_TIME,
       false

@@ -113,6 +113,12 @@
   }
 }
 
+.gif-items-container .loader-image {
+  width: 90px;
+  margin: 20px auto 2em;
+  display: block;
+}
+
 @keyframes loadingAnimation {
   0% {
     background-color: #fff;
