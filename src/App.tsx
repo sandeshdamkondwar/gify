@@ -20,11 +20,11 @@ import { AppProvider } from "./contexts/App";
 
 const BASE_URL = process.env.PUBLIC_URL;
 
-const LocationDisplay = withRouter(({ location }) => (
+export const LocationDisplay = withRouter(({ location }) => (
   <div data-testid="location-display">{location.pathname}</div>
 ));
 
-function App() {
+export default function () {
   const { scrollDir, lastScroll } = useScrollDirection({
     initialDirection: SCROLL_DOWN,
     thresholdPixels: 50,
@@ -34,30 +34,25 @@ function App() {
   const showHeader = scrollDir === SCROLL_UP && lastScroll > 100;
 
   return (
-    <AppProvider>
-      <div
-        className={cx("header", {
-          fixed: showHeader,
-        })}
-      >
-        <SearchBar />
-        <Nav className={cx({})} />
-      </div>
-      <div
-        className={cx("gif-container", {
-          "container-padding": showHeader,
-        })}
-      >
-        <RouterContainer />
-        {/* <LocationDisplay /> */}
-      </div>
-    </AppProvider>
+    <BrowserRouter basename={BASE_URL}>
+      <AppProvider>
+        <div
+          className={cx("header", {
+            fixed: showHeader,
+          })}
+        >
+          <SearchBar />
+          <Nav className={cx({})} />
+        </div>
+        <div
+          className={cx("gif-container", {
+            "container-padding": showHeader,
+          })}
+        >
+          <RouterContainer />
+          {/* <LocationDisplay /> */}
+        </div>
+      </AppProvider>
+    </BrowserRouter>
   );
 }
-
-export default () => (
-  <BrowserRouter basename={BASE_URL}>
-    <App />
-  </BrowserRouter>
-);
-export { LocationDisplay, App };

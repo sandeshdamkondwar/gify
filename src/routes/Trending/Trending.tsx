@@ -9,7 +9,7 @@ const gf = new GiphyFetch(GIPHY_KEY);
 
 function Trending() {
   const fetchGifs = useCallback((pageOffset: number) => {
-    return gf.trending({ offset: pageOffset, limit: 10 });
+    return gf.trending({ offset: pageOffset, limit: 100 });
   }, []);
 
   return (
