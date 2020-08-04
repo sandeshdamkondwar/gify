@@ -2,7 +2,7 @@
   "files": {
     "static/js/0.d9d1d14f.chunk.js": "/gify/static/js/0.d9d1d14f.chunk.js",
     "static/js/0.d9d1d14f.chunk.js.map": "/gify/static/js/0.d9d1d14f.chunk.js.map",
-    "main.css": "/gify/static/css/main.16f6afb1.chunk.css",
+    "main.css": "/gify/static/css/main.254ee567.chunk.css",
     "main.js": "/gify/static/js/main.b0322128.chunk.js",
     "main.js.map": "/gify/static/js/main.b0322128.chunk.js.map",
     "runtime-main.js": "/gify/static/js/runtime-main.68e81cba.js",
@@ -16,9 +16,9 @@
     "static/js/6.9877a67a.chunk.js": "/gify/static/js/6.9877a67a.chunk.js",
     "static/js/6.9877a67a.chunk.js.map": "/gify/static/js/6.9877a67a.chunk.js.map",
     "index.html": "/gify/index.html",
-    "precache-manifest.667781ef37560a20dadffe5d0c2e00f0.js": "/gify/precache-manifest.667781ef37560a20dadffe5d0c2e00f0.js",
+    "precache-manifest.4288a6c9dbeb94d4128cc5fb8aadef17.js": "/gify/precache-manifest.4288a6c9dbeb94d4128cc5fb8aadef17.js",
     "service-worker.js": "/gify/service-worker.js",
-    "static/css/main.16f6afb1.chunk.css.map": "/gify/static/css/main.16f6afb1.chunk.css.map",
+    "static/css/main.254ee567.chunk.css.map": "/gify/static/css/main.254ee567.chunk.css.map",
     "static/js/0.d9d1d14f.chunk.js.LICENSE.txt": "/gify/static/js/0.d9d1d14f.chunk.js.LICENSE.txt",
     "static/js/3.952b1b49.chunk.js.LICENSE.txt": "/gify/static/js/3.952b1b49.chunk.js.LICENSE.txt",
     "static/media/loader.svg": "/gify/static/media/loader.77228bc8.svg"
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.68e81cba.js",
     "static/js/3.952b1b49.chunk.js",
-    "static/css/main.16f6afb1.chunk.css",
+    "static/css/main.254ee567.chunk.css",
     "static/js/main.b0322128.chunk.js"
   ]
 }
