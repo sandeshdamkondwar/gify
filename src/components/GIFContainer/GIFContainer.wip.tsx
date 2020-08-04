@@ -4,8 +4,8 @@ import { act } from "@testing-library/react";
 
 import { screen } from "@testing-library/dom";
 
-import GIFContainer from "../GIFContainer";
-import * as MOCK_DATA from "./mock.json";
+import GIFContainer from "./GIFContainer";
+import * as MOCK_DATA from "./__tests__/mock.json";
 
 test("Fetch makes an API call and displays the data", async () => {
   const fetchGifs = jest.fn((offset: number) => Promise.resolve(MOCK_DATA));
